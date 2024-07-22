@@ -1,0 +1,26 @@
+/* Writing a programme to display if the student is pass or fail */
+package main
+import "fmt"
+func main() {
+
+/* 
+marks raning fom 90 -100 - Grade A 
+marks raning fom 89 -80 - Grade B 
+marks raning fom 79 -60 - Grade C
+marks raning fom 59 -45 - Grade D 
+marks raning fom 44 -35 - Grade E 
+*/
+
+	marks :=99
+	if marks >= 35 && marks <44  {
+		fmt.Println("Grade is D")
+	} else if marks >= 45 && marks <60  {
+		fmt.Println("Grade is C")
+	} else if marks >= 60 && marks <80  {
+		fmt.Println("Grade is B")
+	} else if marks >+80 && marks <=100 {
+		fmt.Println("Grade is A")
+	} else {
+		fmt.Println("congrats, Student is fail")
+	}
+}
